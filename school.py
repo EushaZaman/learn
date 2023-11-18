@@ -1,5 +1,6 @@
 from peewee import SqliteDatabase, Model, CharField, IntegerField
-
+import os
+os.remove("users3.db")
 db = SqliteDatabase("users3.db")
 
 
